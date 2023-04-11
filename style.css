@@ -1,13 +1,77 @@
-.nav{
-    color: black;
-}
 body{
-    background:url("/image/pic\ 1.png");
-}
-.title{
-position: absolute;
-width: 521px;
-height: 80px;
-left: 200px;
-top: 250px;
+    height: 100vh; 
+    width: 100%; 
+    margin: 0%;
+} 
+
+body{ 
+    background-image: url("image/pic\ 1.png");
+    background-color: #000000;  
+    background-size: 1400px 730px; 
+    background-repeat: no-repeat;
+    
+    
+ }
+ body nav img{ 
+    width: 266px;
+    height: 116.51px;
+ }  
+ 
+form h1{   
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+color: #DCDCDC;
+position: absolute; 
+top: 20%; 
+left: 26%; 
+ }  
+  
+ body input{ 
+    box-sizing: border-box;
+    width: 350px;
+    height: 50px;
+    border: 3px solid #FCF291;
+    backdrop-filter: blur(200px);
+    border-radius: 38px;   
+    text-decoration: none;
+    background-color: #000000;
+ } 
+ .email{ 
+position: absolute; 
+top: 42%; 
+left: 16%; 
+
+ }  
+ .password{
+    position: absolute; 
+    top: 54%; 
+    left: 16%;
+ }
+ body button{
+    background: #FFCD2D;
+    border-radius: 38px;
+    width: 350px;
+    height: 50px;  
+    position: absolute;
+    left: 16%;
+    top: 70%; 
+
+
+
+ } 
+body button a
+{  
+font-style: normal;
+font-weight: 700;
+font-size: 24px;  
+color: #000000;
+text-decoration: none;
+} 
+body p{   
+   
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(255, 255, 255);
+    position: absolute; 
+    right: 2%;  
+    top: 90%;
 }

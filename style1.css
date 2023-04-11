@@ -1,0 +1,51 @@
+body{
+    color: #3DB2D3;
+    
+}
+#box{
+
+    border:8px solid black;
+    border-radius: 29px;
+    box-shadow: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 600.75px;
+    height: 500.92px;
+    background-color: aqua;
+    color: white;
+
+    
+}
+*{
+padding: 0;
+margin: 0;
+top: 0;
+box-sizing: 20px;
+}
+.chochan{
+align-items: left;
+}
+#content{
+    display: flex;
+    flex-wrap:wrap;
+    padding-right: 3px;
+    padding-top: 8px;
+    align-items: center;
+    
+    
+}
+.right{
+    padding: 13px 4px;
+    align-items: left;
+}
+.left{
+    padding: 13px 4px;
+    align-items: left;
+}
+img{
+    padding-top: 8px;
+    padding-right: 6px;
+}
+h1{
+    text-align: center;
+}
