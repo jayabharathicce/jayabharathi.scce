@@ -1,0 +1,13 @@
+.nav{
+    color: black;
+}
+body{
+    background:url("/image/pic\ 1.png");
+}
+.title{
+position: absolute;
+width: 521px;
+height: 80px;
+left: 200px;
+top: 250px;
+}
