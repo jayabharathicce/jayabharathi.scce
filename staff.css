@@ -1,0 +1,56 @@
+.staff{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 36px;
+    gap: 10px;
+    position: absolute;
+    width: 128px;
+    height: 39px;
+    left: 1277px;
+    top: 65px;
+    border-radius: 13px;
+    font-family: 'pirata one';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.students{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 36px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 39px;
+    left: 1088px;
+    top: 65px;
+    border-radius: 13px;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+    background-image: url("#");
+}
+.header{
+    text-align: center;
+    padding: 32px;
+}
+.column{
+    float: left;
+    width: 30px;
+    padding: 10px;
+}
+.column img{
+    margin-top: 12px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+row{
+    background-color: #CDCFEE;
+}
