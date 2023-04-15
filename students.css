@@ -1,56 +1,69 @@
-.staff{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 4px 36px;
-    gap: 10px;
-    position: absolute;
-    width: 128px;
-    height: 39px;
-    left: 1277px;
-    top: 65px;
-    border-radius: 13px;
-    font-family: 'pirata one';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-}
-.students{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 4px 36px;
-    gap: 10px;
-    position: absolute;
-    width: 170px;
-    height: 39px;
-    left: 1088px;
-    top: 65px;
-    border-radius: 13px;
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
 }
 body{
-    margin: 0;
-    font-family: Arial;
-    background-image: url("#");
+    background-color: #F6DEFF;
+    background-image: url(./image/purple.png);
+    position: relative;
+    width: 1440px;
+height: 1024px;
 }
-.header{
-    text-align: center;
-    padding: 32px;
+.wow{
+    position:absolute;
+    height:auto;
+    left:0px;
+    width:250px;
 }
-.column{
-    float: left;
-    width: 30px;
-    padding: 10px;
+.icon{
+    position: absolute;
+    width: 447px;
+    height: 83;
+    left: 1450px;
+    top:40px;
 }
-.column img{
-    margin-top: 12px;
+.stu1{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 150px;
+    top: 140px;
+    
 }
+.stu2{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 750px;
+top: 136px;
 
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
 }
-.row{
-    background-color: #CDCFEE;
+.stu3{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 1350px;
+top: 136px;
+}
+.stu4{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 150px;
+top: 534px;
+}
+.stu5{
+position: absolute;
+width: 362px;
+height: 353px;
+left: 750px;
+top: 534px;
+}
+.stu6{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 1350px;
+    top: 534px;
 }
