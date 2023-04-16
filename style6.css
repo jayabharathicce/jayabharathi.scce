@@ -1,48 +1,192 @@
 body{
-    color: #3DB2D3;
-}
-#box{
-
-    border:8px solid black;
-    border-radius: 29px;
-    box-shadow: 10px;
-    align-items: center;
+    background:#F5F5F5 ;  
+    font-family: 'Pirata One','san serf'; 
+    align-items: center;  
     justify-content: center;
-    width: 600.75px;
-    height: 500.92px;
-    background-color: #148341;
-    color: white;
+}  
+
+.list2{   
+    box-sizing: border-box; 
+    box-shadow: inset  0 0 40px black;
+    height: 650px; 
+    width: 998px;  
+    bottom: -20%;;
+    background:#9C1801; 
+
+    position: relative; 
+    border-radius: 50px; 
+    left: 0px; 
+    top:0px;
+
+    border:  10px solid #000000;
+   color: #DCDCDC;
+
+} 
+.logo{
+    position: absolute;
+    left: 37.91%;
+    right: 37.72%;
+    top: -29%;
+    bottom: 70.57%;
+    width: 250px;;
+    height: 297.01px;
+
+}
+
+
+
+h1{
+    position:absolute;
+    left: 30px;
+    top: -10px;
+}
+.details{
+    position: relative;
+    left:20px;
+    top:100px;
+
     
+    list-style-type: none; 
+    margin: 20px;
+  padding: 0;
+  align-items:center;
+  justify-items: end;
+
 }
-*{
-padding: 0;
-margin: 0;
-top: 0;
-box-sizing: 20px;
+
+
+
+.pic{
+    position: absolute; 
+    top: 5%; 
+    right: 5%;
+    width: 276px;
+    height: 337px;
+}  
+
+
+h1{
+    text-align: center; 
+    font-size: 3em;
+    left: 10%;
 }
-.Umbridge{
-align-items: left;
-}
-#content{
-    display: flex;
-    flex-wrap:wrap;
-    padding-right: 3px;
-    padding-top: 8px;
-    align-items: center;
+th, td{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 29px;
+    padding-right: 100px;
+  }
+  .list1{
+    box-sizing: border-box; 
+    box-shadow:   0 0 300px#FFB6A9;
+    height: 650px; 
+    width: 998px;  
+    bottom: -20%;;
+
+
+    position: relative; 
+    border-radius: 50px; 
+    left: 260px; 
+    top:15px;
+  }
+  .icon{
+    width:"180px";
+     height:"80px";
+  }
+  @media  only screen and(max-width:600px){
+    body{
+        background:#F5F5F5 ;  
+        font-family: 'Pirata One','san serf'; 
+        align-items: center;  
+        justify-content: center;
+    }  
     
-}
-.right{
-    padding: 13px 4px;
-    align-items: left;
-}
-.left{
-    padding: 13px 4px;
-    align-items: left;
-}
-img{
-    padding-top: 8px;
-    padding-right: 6px;
-}
-h2{
-    text-align: center;
-}
+    .list2{   
+        box-sizing: border-box; 
+        box-shadow: inset  0 0 40px black;
+        height: 650px; 
+        width: 998px;  
+        bottom: -20%;;
+        background:#9C1801; 
+    
+        position: relative; 
+        border-radius: 50px; 
+        left: 0px; 
+        top:0px;
+    
+        border:  10px solid #000000;
+       color: #DCDCDC;
+    
+    } 
+    .logo{
+        position: absolute;
+        left: 37.91%;
+        right: 37.72%;
+        top: -29%;
+        bottom: 70.57%;
+        width: 250px;;
+        height: 297.01px;
+    
+    }
+    
+    
+    
+    h1{
+        position:absolute;
+        left: 30px;
+        top: -10px;
+    }
+    .details{
+        position: relative;
+        left:20px;
+        top:100px;
+    
+        
+        list-style-type: none; 
+        margin: 20px;
+      padding: 0;
+      align-items:center;
+      justify-items: end;
+    
+    }
+    
+    
+    
+    .pic{
+        position: absolute; 
+        top: 5%; 
+        right: 5%;
+        width: 276px;
+        height: 337px;
+    }  
+    
+    
+    h1{
+        text-align: center; 
+        font-size: 3em;
+        left: 10%;
+    }
+    th, td{
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-left: 29px;
+        padding-right: 100px;
+      }
+      .list1{
+        box-sizing: border-box; 
+        box-shadow:   0 0 300px#FFB6A9;
+        height: 650px; 
+        width: 998px;  
+        bottom: -20%;;
+    
+    
+        position: relative; 
+        border-radius: 50px; 
+        left: 260px; 
+        top:15px;
+      }
+      .icon{
+        width:"180px";
+         height:"80px";
+      }
+  }

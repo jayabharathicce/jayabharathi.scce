@@ -6,6 +6,7 @@
 body{
     background-color: #F6DEFF;
     background-image: url(./image/purple.png);
+    background-repeat: repeat-x;
     position: relative;
     width: 1440px;
 height: 1024px;
@@ -66,4 +67,77 @@ top: 534px;
     height: 353px;
     left: 1350px;
     top: 534px;
+}
+
+@media  only screen and(max-width:600px) {
+    .body{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    body{
+        background-color: #F6DEFF;
+        background-image: url(./image/purple.png);
+        background-repeat: repeat-x;
+        position: relative;
+        width: 1440px;
+    height: 1024px;
+    }
+    .wow{
+        position:absolute;
+        height:auto;
+        left:0px;
+        width:250px;
+    }
+    .icon{
+        position: absolute;
+        width: 447px;
+        height: 83;
+        left: 1450px;
+        top:40px;
+    }
+    .staff1{
+        position: absolute;
+        width: 362px;
+        height: 353px;
+        left: 150px;
+        top: 140px;
+        
+    }
+    .staff2{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 750px;
+    top: 136px;
+    
+    }
+    .staff3{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 1350px;
+    top: 136px;
+    }
+    .staff4{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 150px;
+    top: 534px;
+    }
+    .staff5{
+    position: absolute;
+    width: 362px;
+    height: 353px;
+    left: 750px;
+    top: 534px;
+    }
+    .staff6{
+        position: absolute;
+        width: 362px;
+        height: 353px;
+        left: 1350px;
+        top: 534px;
+    }
 }

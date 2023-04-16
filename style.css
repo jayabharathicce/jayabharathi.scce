@@ -1,3 +1,4 @@
+
 body{
     height: 100vh; 
     width: 100%; 
@@ -19,7 +20,7 @@ body{
  
 form h1{   
 font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; 
+font-size: 2em;
 color: #DCDCDC;
 position: absolute; 
 top: 20%; 
@@ -34,18 +35,22 @@ left: 26%;
     backdrop-filter: blur(200px);
     border-radius: 38px;   
     text-decoration: none;
-    background-color: #000000;
+  
  } 
  .email{ 
 position: absolute; 
 top: 42%; 
 left: 16%; 
+text-align:center ;
+background-color: transparent;
 
  }  
  .password{
     position: absolute; 
     top: 54%; 
     left: 16%;
+    text-align:center ;
+    background-color: transparent;
  }
  body button{
     background: #FFCD2D;
@@ -74,4 +79,91 @@ body p{
     position: absolute; 
     right: 2%;  
     top: 90%;
+ }
+
+@media  only screen and(max-width:600px) {
+   
+   
+body{
+   height: 100vh; 
+   width: 100%; 
+   margin: 0%;
+} 
+
+body{ 
+   background-image: url("image/pic\ 1.png");
+   background-color: #000000;  
+   background-size: 1400px 730px; 
+   background-repeat: no-repeat;
+   
+   
+}
+body nav img{ 
+   width: 146px;
+   height: 59px;
+}  
+
+.lo{   
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+color: #DCDCDC;
+position: absolute; 
+top: 20%; 
+left: 43%; 
+}  
+ 
+body input{ 
+   box-sizing: border-box;
+   width: 217px;
+   height: 38px;
+   border: 3px solid #FCF291;
+   backdrop-filter: blur(200px);
+   border-radius: 38px;   
+   text-decoration: none;
+ 
+} 
+.email{ 
+position: absolute; 
+top: 42%; 
+left: 16%; 
+text-align:center ;
+background-color: transparent;
+
+}  
+.password{
+   position: absolute; 
+   top: 54%; 
+   left: 16%;
+   text-align:center ;
+   background-color: transparent;
+}
+body button{
+   background: #FFCD2D;
+   border-radius: 38px;
+   width: 350px;
+   height: 50px;  
+   position: absolute;
+   left: 16%;
+   top: 70%; 
+
+
+
+} 
+body button a
+{  
+font-style: normal;
+font-weight: 700;
+font-size: 24px;  
+color: #000000;
+text-decoration: none;
+} 
+body p{   
+  
+   font-family: 'Roboto', sans-serif; 
+   color: rgb(255, 255, 255);
+   position: absolute; 
+   right: -6%;  
+   top: 101%;
+
+}
 }
